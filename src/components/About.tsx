@@ -16,7 +16,7 @@ const About = () => {
   ];
 
   return (
-    <section id="nosotros" className="py-24 lg:py-32 section-padding bg-background">
+    <section id="nosotros" className="py-24 lg:py-32 section-padding bg-background overflow-x-hidden">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <p className="text-sm font-semibold tracking-widest uppercase text-accent mb-3">Quiénes somos</p>
