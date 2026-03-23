@@ -52,7 +52,7 @@ const About = () => {
               </div>
             </ScrollReveal>
             <ScrollReveal delay={240}>
-              <div className="flex gap-6 mt-8">
+              <div className="flex flex-wrap gap-4 lg:gap-6 mt-8">
                 {values.map((v, i) => (
                   <div key={i} className="flex items-center gap-2">
                     <v.icon className="w-4 h-4 text-accent" />
