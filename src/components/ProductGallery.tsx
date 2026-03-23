@@ -9,6 +9,8 @@ import rayosXPortatil from "@/assets/products/rayos-x-portatil.jpg";
 import ultrasonido from "@/assets/products/ultrasonido.jpg";
 import arcoC from "@/assets/products/arco-en-c.jpg";
 import mastografo from "@/assets/products/mastografo.jpg";
+import endoscopio from "@/assets/products/endoscopio.webp";
+import arietta65 from "@/assets/products/ultrasonido-arietta65.jpg";
 
 interface Product {
   image: string;
