@@ -27,6 +27,8 @@ const defaultProducts: Product[] = [
   { image: arcoC, title: "Arco en C", description: "Fluoroscopio móvil para procedimientos quirúrgicos con imagen en tiempo real." },
   { image: mastografo, title: "Mastógrafo Digital", description: "Equipo de mamografía digital de alta definición para detección temprana de cáncer de mama." },
   { image: inyector, title: "Inyector de Contraste", description: "Sistema automatizado para administración precisa de medio de contraste en estudios de imagen." },
+  { image: endoscopio, title: "Torre de Endoscopia", description: "Sistema completo de videoendoscopia con procesador de imagen de alta definición para procedimientos diagnósticos y terapéuticos." },
+  { image: arietta65, title: "Ultrasonido Arietta 65", description: "Sistema de ultrasonido premium con tecnología avanzada de imagen y amplia conectividad de transductores." },
 ];
 
 const ProductGallery = () => {
@@ -34,7 +36,7 @@ const ProductGallery = () => {
   const [selected, setSelected] = useState<Product | null>(null);
 
   return (
-    <section id="equipos" className="py-24 lg:py-32 section-padding bg-imge-light">
+    <section id="equipos" className="py-24 lg:py-32 section-padding bg-imge-light overflow-x-hidden">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <p className="text-sm font-semibold tracking-widest uppercase text-accent mb-3">Galería de equipos</p>
