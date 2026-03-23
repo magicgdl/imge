@@ -55,7 +55,7 @@ const ProductGallery = () => {
                 onClick={() => setSelected(p)}
                 className="group w-full text-left bg-card rounded-xl overflow-hidden shadow-md shadow-foreground/5 hover:shadow-xl transition-all duration-300 active:scale-[0.97]"
               >
-                <div className="aspect-[4/3] overflow-hidden bg-muted">
+                <div className="aspect-[4/3] overflow-hidden bg-muted lg:bg-white">
                   <img
                     src={p.image}
                     alt={p.title}

@@ -16,7 +16,7 @@ const About = () => {
   ];
 
   return (
-    <section id="nosotros" className="py-24 lg:py-32 section-padding bg-background">
+    <section id="nosotros" className="py-24 lg:py-32 section-padding bg-background overflow-x-hidden">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <p className="text-sm font-semibold tracking-widest uppercase text-accent mb-3">Quiénes somos</p>
@@ -52,7 +52,7 @@ const About = () => {
               </div>
             </ScrollReveal>
             <ScrollReveal delay={240}>
-              <div className="flex gap-6 mt-8">
+              <div className="flex flex-wrap gap-4 lg:gap-6 mt-8">
                 {values.map((v, i) => (
                   <div key={i} className="flex items-center gap-2">
                     <v.icon className="w-4 h-4 text-accent" />
