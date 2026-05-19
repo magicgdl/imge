@@ -5,12 +5,15 @@ const equipos = [
   "Arco en C", "Mastógrafos digitales", "Digitalizadores RX",
   "Rodables RX", "Salas de RX", "Ultrasonidos",
   "Endoscopia", "Monitores de diagnóstico", "Impresoras RX",
+  "Inyector de medio de contraste",
 ];
 
 const consumibles = [
   "Equipo de protección radiológica", "Contraste radiológico", "Pistolas y agujas de biopsia",
   "Oxímetros y termómetros", "Nebulizadores", "Material de curación",
-  "Pruebas rápidas (VIH, Hepatitis, Antígeno prostático)", "Muebles hospitalarios", "Instrumental quirúrgico",
+  "Muebles hospitalarios", "Instrumental quirúrgico", "Película radiográfica ", 
+  "Terapias ablativas (Radiofrecuencia, microondas, Crío-ablacion)", "Ekos",
+
 ];
 
 const Solutions = () => {
