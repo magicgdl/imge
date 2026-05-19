@@ -13,7 +13,7 @@ const consumibles = [
   "Oxímetros y termómetros", "Nebulizadores", "Material de curación",
   "Muebles hospitalarios", "Instrumental quirúrgico",  
   "Terapias ablativas (Radiofrecuencia, microondas, Crío-ablacion)",
-  "Ekos (Tratamiento Embolismo Pulmonar", "Productos, acccesorios y materiales de cardiología mínima invasiva"
+  "Ekos (Tratamiento Embolismo Pulmonar", "Productos, acccesorios y materiales de cardiología mínima invasiva (Intervencionismo Cardíaco - Periférico - Radiológico - Oncologico)"
 
 ];
 
