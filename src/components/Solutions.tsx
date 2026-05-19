@@ -9,10 +9,11 @@ const equipos = [
 ];
 
 const consumibles = [
-  "Equipo de protección radiológica", "Contraste radiológico", "Pistolas y agujas de biopsia",
+  "Protección radiológica", "Película radiográfica", "Pistolas y agujas de biopsia",
   "Oxímetros y termómetros", "Nebulizadores", "Material de curación",
-  "Muebles hospitalarios", "Instrumental quirúrgico", "Película radiográfica ", 
-  "Terapias ablativas (Radiofrecuencia, microondas, Crío-ablacion)", "Ekos",
+  "Muebles hospitalarios", "Instrumental quirúrgico",  
+  "Terapias ablativas (Radiofrecuencia, microondas, Crío-ablacion)",
+  "Ekos (Tratamiento Embolismo Pulmonar", "Productos, acccesorios y materiales de cardiología mínima invasiva"
 
 ];
 
